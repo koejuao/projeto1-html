@@ -1,0 +1,72 @@
+/* Intro */
+
+.intro-servi {
+  background: url("../img/servi.png") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 50px 0;
+  height: 220px;
+  margin-top: 70px;
+}
+.intro-servi .container {
+  flex-direction: column;
+}
+
+.intro-servi h1 {
+  margin-bottom: 60px;
+}
+
+.subtitulo-servi {
+  font-size: 48px;
+  text-align: center;
+}
+
+.subtitulo-servi:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: #fff;
+  margin: 5px auto;
+}
+
+.descri {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.service-2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+.service-list-2 {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  
+}
+.service-list-item-2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 40px;
+}
+
+.service-list-item-2 img {
+  padding-right: 20px; 
+  padding-bottom: 100px;
+}
+
+.service-list-item-2 p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.servi-h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
