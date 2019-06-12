@@ -149,12 +149,6 @@ transition: 0.3s ease-in-out;
   margin-top: 30px;
   margin-bottom:160px
 }
-    .contato_form {
-      margin-top: 0px;
-       padding-bottom: 10px;
-
-    }
-    
     .contato_form label{
     display: block;
     line-height: 25px;
