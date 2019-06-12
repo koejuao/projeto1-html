@@ -35,6 +35,22 @@
     text-align: center;
     margin-top: -50px;;
   }
+  @media (max-width: 739px) {
+    .intro-clien {
+      padding: 20px 0;
+      height: 110px;
+    }
+    .intro-clien h1 {
+      
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+    .descri {
+      font-size: 12px;
+      text-align: center;
+      margin-top: -20px;
+    }
+  }
   
   .card-clien-list {
     display: flex;
@@ -73,3 +89,30 @@
     line-height: 20px;
     padding-bottom: 20px;
   }
+  @media (max-width: 739px) {
+    .container .card-clien {
+      margin-top:-0px;
+      margin-top:20px;
+      margin-left: 100px;
+      width:200px;
+    }
+    .card-clien-list {
+      display: flex;
+      flex-flow: row wrap;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .card-clien-list {
+      margin-top: 25px
+    }
+    .card-item-clien img{
+      width: 50px;
+    }
+    .card-item-clien span {
+      font-size: 10px;
+      line-height: 20px;
+      max-width:200px
+    }
+   
+  }
+  
